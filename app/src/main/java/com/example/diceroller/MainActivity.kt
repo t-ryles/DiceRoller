@@ -49,12 +49,6 @@ class MainActivity : AppCompatActivity() {
         //Setting content description for screen readers
         diceImage.contentDescription = diceRoll.toString()
 
-        /**
-        *Added second die
-        *val diceRoll2 = dice.roll()
-        *val resultTextView2: TextView = findViewById(R.id.textView2)
-        *resultTextView2.text = diceRoll2.toString()
-        */
     }
 }
 
